@@ -8,7 +8,6 @@ if __name__ == '__main__':
     async def shut(app: Application) -> None:
         mongo_client.close()
     mongo_client = MongoClient()
-    print(TOKEN)
     persistence = Router(mongo_client.mongo_db)
     app = (ApplicationBuilder()
            .concurrent_updates(False)
