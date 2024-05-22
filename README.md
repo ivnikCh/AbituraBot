@@ -68,12 +68,8 @@ user_test.py ...                                                         [100%]
 ### Application
   ##### Поля
     pass_id: str - паспорт
-    snils_id: str - снилс
-    id_app: str - уникальный номер заявления
     url_docs: str - ссылка на гугл диск с документами
     name_program: str - название программы на котрую было подано заявление
-    is_bvi: bool - конкурсная группа
-    count_ege: int - сумма балов егэ
     state: str - статус заявления
     comment: str - комментарий проверяющего
   ##### Методы
